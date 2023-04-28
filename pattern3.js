@@ -21,7 +21,7 @@
 
 let pattern = "";
 const printTriangle = (num) => {
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= num; i++) {
         for (let j = 1; j <= i; j++) {
             pattern += j;
         }
